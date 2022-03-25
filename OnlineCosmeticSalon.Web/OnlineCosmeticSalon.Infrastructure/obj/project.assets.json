@@ -693,6 +693,16 @@
             "rid": "win"
           }
         }
+      },
+      "OnlineCosmeticSalon.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/OnlineCosmeticSalon.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineCosmeticSalon.Common.dll": {}
+        }
       }
     }
   },
@@ -2003,15 +2013,20 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "OnlineCosmeticSalon.Common/1.0.0": {
+      "type": "project",
+      "path": "../OnlineCosmeticSalon.Common/OnlineCosmeticSalon.Common.csproj",
+      "msbuildProject": "../OnlineCosmeticSalon.Common/OnlineCosmeticSalon.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.3",
-      "Microsoft.EntityFrameworkCore >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.3",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.3"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.3",
+      "OnlineCosmeticSalon.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2040,7 +2055,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Miroslav Vasilev\\source\\repos\\OnlineCosmeticSalon.Web\\OnlineCosmeticSalon.Common\\OnlineCosmeticSalon.Common.csproj": {
+              "projectPath": "C:\\Users\\Miroslav Vasilev\\source\\repos\\OnlineCosmeticSalon.Web\\OnlineCosmeticSalon.Common\\OnlineCosmeticSalon.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -2054,10 +2073,6 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[6.0.3, )"
-          },
-          "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.3, )"
           },

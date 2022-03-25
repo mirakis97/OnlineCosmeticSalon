@@ -4,10 +4,10 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using OnlineCosmeticSalon.Web.Data;
+using OnlineCosmeticSalon.Infrastucture.Data;
 using System;
 
-namespace OnlineCosmeticSalon.Web.Data.Migrations
+namespace EventApp.Core.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("00000000000000_CreateIdentitySchema")]
