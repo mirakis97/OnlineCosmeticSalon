@@ -1,5 +1,6 @@
 ﻿using OnlineCosmeticSalon.Common;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OnlineCosmeticSalon.Infrastructure.Data.Models
 {
@@ -17,7 +18,10 @@ namespace OnlineCosmeticSalon.Infrastructure.Data.Models
         [Required]
         [MaxLength(GlobalConstants.DataValidations.NameMaxLength)]
         public string Name { get; set; }
+        [ForeignKey(nameof(Category))]
+        public int CategoryId { get; set; }
 
+        public virtual Category Category { get; set; }
 
         [Required]
         [MaxLength(GlobalConstants.DataValidations.DescriptionMaxLength)]

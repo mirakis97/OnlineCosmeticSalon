@@ -11,7 +11,13 @@ namespace OnlineCosmeticSalon.Infrastucture.Data
             : base(options)
         {
         }
+        public DbSet<BlogPost> BlogPosts { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
+
         public DbSet<Service> Services { get; set; }
+
+        public DbSet<City> Cities { get; set; }
 
         public DbSet<Salon> Salons { get; set; }
 

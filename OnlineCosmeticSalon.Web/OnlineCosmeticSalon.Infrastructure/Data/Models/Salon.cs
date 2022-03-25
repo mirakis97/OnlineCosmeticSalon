@@ -24,7 +24,14 @@ namespace OnlineCosmeticSalon.Infrastructure.Data.Models
         public string OwnerId { get; set; }
 
         public virtual ApplicationUser Owner { get; set; }
-        
+        [ForeignKey(nameof(Category))]
+        public int CategoryId { get; set; }
+
+        public virtual Category Category { get; set; }
+        [ForeignKey(nameof(City))]
+        public int CityId { get; set; }
+
+        public virtual City City { get; set; }
 
         [Required]
         [MaxLength(GlobalConstants.DataValidations.AddressMaxLength)]
