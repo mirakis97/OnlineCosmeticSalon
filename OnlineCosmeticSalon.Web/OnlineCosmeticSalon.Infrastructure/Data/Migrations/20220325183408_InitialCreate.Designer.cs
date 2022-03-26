@@ -9,7 +9,7 @@ using OnlineCosmeticSalon.Infrastucture.Data;
 
 #nullable disable
 
-namespace EventApp.Core.Migrations
+namespace OnlineCosmeticSalon.Web.Core.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20220325183408_InitialCreate")]

@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OnlineCosmeticSalon.Infrastucture.Data;
 using System;
 
-namespace EventApp.Core.Migrations
+namespace OnlineCosmeticSalon.Web.Core.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("00000000000000_CreateIdentitySchema")]

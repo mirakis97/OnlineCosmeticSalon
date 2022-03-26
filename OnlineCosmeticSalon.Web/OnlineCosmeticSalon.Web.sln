@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineCosmeticSalon.Infrast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCosmeticSalon.Common", "OnlineCosmeticSalon.Common\OnlineCosmeticSalon.Common.csproj", "{29925B23-8D50-4420-9404-19388F98569F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCosmeticSalon.Core", "OnlineCosmeticSalon.Core\OnlineCosmeticSalon.Core.csproj", "{1C587943-9FE6-464B-9F61-80321E5AC361}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{29925B23-8D50-4420-9404-19388F98569F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29925B23-8D50-4420-9404-19388F98569F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29925B23-8D50-4420-9404-19388F98569F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C587943-9FE6-464B-9F61-80321E5AC361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C587943-9FE6-464B-9F61-80321E5AC361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C587943-9FE6-464B-9F61-80321E5AC361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C587943-9FE6-464B-9F61-80321E5AC361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace EventApp.Core.Migrations
+namespace OnlineCosmeticSalon.Web.Core.Migrations
 {
     public partial class AddedAditionalTables : Migration
     {

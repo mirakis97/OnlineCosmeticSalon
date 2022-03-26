@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace EventApp.Core.Migrations
+namespace OnlineCosmeticSalon.Web.Core.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
