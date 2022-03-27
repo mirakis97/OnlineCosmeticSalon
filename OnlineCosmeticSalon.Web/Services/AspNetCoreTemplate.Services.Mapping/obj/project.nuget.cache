@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "O/Ndy3RfRO8ZAeqNZCIC0nUDCRIEL8yNcfNiSx5EWGVAHkpcAr2bRNApBkugLD62ZtFtdeLviL/z0JQzgfYVPg==",
+  "success": true,
+  "projectFilePath": "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Services\\AspNetCoreTemplate.Services.Mapping\\AspNetCoreTemplate.Services.Mapping.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512",
+    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

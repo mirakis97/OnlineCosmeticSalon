@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LsYn62pyGQxFLkMtimjA6hFenDWWqgXp88lx/E3O/rEFoHAS5xRPEm/vtcdN9Qqaoqha0M7RoT8v7hO2omVA2A==",
+  "success": true,
+  "projectFilePath": "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\AspNetCoreTemplate.Common\\AspNetCoreTemplate.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+  ],
+  "logs": []
+}
