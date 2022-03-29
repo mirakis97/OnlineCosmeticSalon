@@ -285,10 +285,12 @@ C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTempl
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\AspNetCoreTemplate.Web.Views.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\AspNetCoreTemplate.Web.Views.pdb
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\AutoMapper.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\CloudinaryDotNet.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Humanizer.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
@@ -311,6 +313,8 @@ C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTempl
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.Extensions.WebEncoders.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.Identity.Client.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
@@ -335,6 +339,7 @@ C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTempl
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\System.Composition.TypedParts.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\System.IO.Pipelines.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\System.Runtime.Caching.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
@@ -428,6 +433,7 @@ C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTempl
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\AspNetCoreTemplate.Web.AssemblyInfoInputs.cache
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\AspNetCoreTemplate.Web.AssemblyInfo.cs
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\AspNetCoreTemplate.Web.csproj.CoreCompileInputs.cache
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\AspNetCoreTemplate.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\AspNetCoreTemplate.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\AspNetCoreTemplate.Web.RazorAssemblyInfo.cache
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\AspNetCoreTemplate.Web.RazorAssemblyInfo.cs
@@ -441,6 +447,7 @@ C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTempl
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Areas\Administration\Views\_ViewImports.cshtml.g.cs
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Areas\Administration\Views\_ViewStart.cshtml.g.cs
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Views\Categories\Index.cshtml.g.cs
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Views\Settings\Index.cshtml.g.cs
@@ -459,9 +466,3 @@ C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTempl
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\AspNetCoreTemplate.Web.pdb
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\AspNetCoreTemplate.Web.genruntimeconfig.cache
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\ref\AspNetCoreTemplate.Web.dll
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\CloudinaryDotNet.dll
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\Microsoft.Extensions.WebEncoders.dll
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\bin\Debug\net5.0\System.IO.Pipelines.dll
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\AspNetCoreTemplate.Web.MvcApplicationPartsAssemblyInfo.cs

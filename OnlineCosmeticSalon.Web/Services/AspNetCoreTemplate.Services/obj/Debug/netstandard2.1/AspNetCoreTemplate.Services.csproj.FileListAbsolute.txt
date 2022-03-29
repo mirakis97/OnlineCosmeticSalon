@@ -1,13 +1,13 @@
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\bin\Debug\netstandard2.1\AspNetCoreTemplate.Services.deps.json
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\bin\Debug\netstandard2.1\AspNetCoreTemplate.Services.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\bin\Debug\netstandard2.1\AspNetCoreTemplate.Services.pdb
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\bin\Debug\netstandard2.1\AspNetCoreTemplate.Common.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\bin\Debug\netstandard2.1\AspNetCoreTemplate.Common.pdb
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\obj\Debug\netstandard2.1\AspNetCoreTemplate.Services.csproj.AssemblyReference.cache
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\obj\Debug\netstandard2.1\AspNetCoreTemplate.Services.GeneratedMSBuildEditorConfig.editorconfig
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\obj\Debug\netstandard2.1\AspNetCoreTemplate.Services.AssemblyInfoInputs.cache
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\obj\Debug\netstandard2.1\AspNetCoreTemplate.Services.AssemblyInfo.cs
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\obj\Debug\netstandard2.1\AspNetCoreTemplate.Services.csproj.CoreCompileInputs.cache
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\obj\Debug\netstandard2.1\AspNetCoreTemplate.Services.csproj.CopyComplete
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\obj\Debug\netstandard2.1\AspNetCoreTemplate.Services.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\obj\Debug\netstandard2.1\AspNetCoreTemplate.Services.pdb
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\bin\Debug\netstandard2.1\AspNetCoreTemplate.Common.dll
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\bin\Debug\netstandard2.1\AspNetCoreTemplate.Common.pdb
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services\obj\Debug\netstandard2.1\AspNetCoreTemplate.Services.csproj.CopyComplete
