@@ -74,11 +74,14 @@
             services.AddSingleton(cloudinary);
 
             // Application services
+            services.AddTransient<IEmailSender, NullMessageSender>();
             services.AddTransient<ICategoriesService, CategoriesService>();
+            services.AddTransient<ICitiesService, CitiesService>();
+            services.AddTransient<ISalonsService, SalonsService>();
+            services.AddTransient<ISalonServicesService, SalonServicesService>();
+            services.AddTransient<IAppointmentsService, AppointmentsService>();
             services.AddTransient<IDateTimeParserService, DateTimeParserService>();
             services.AddTransient<ICloudinaryService, CloudinaryService>();
-            services.AddTransient<IEmailSender, NullMessageSender>();
-            services.AddTransient<ISettingsService, SettingsService>();
 
         }
 

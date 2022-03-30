@@ -12,17 +12,17 @@ namespace AspNetCoreTemplate.Services.Data.Services
     public class SalonServicesService : ISalonServicesService
     {
 
-        private readonly IRepository<SalonService> salonServicesRepository;
+        private readonly IRepository<SalonService> _repo;
 
-        public SalonServicesService(IRepository<SalonService> salonServicesRepository)
+        public SalonServicesService(IRepository<SalonService> repo)
         {
-            this.salonServicesRepository = salonServicesRepository;
+            this._repo = repo;
         }
 
         public async Task<T> GetByIdAsync<T>(string salonId, int serviceId)
         {
             var salonService =
-                await this.salonServicesRepository
+                await this._repo
                 .All()
                 .Where(x => x.SalonId == salonId && x.ServiceId == serviceId)
                 .To<T>().FirstOrDefaultAsync();
@@ -33,7 +33,7 @@ namespace AspNetCoreTemplate.Services.Data.Services
         {
             foreach (var serviceId in servicesIds)
             {
-                await this.salonServicesRepository.AddAsync(new SalonService
+                await this._repo.AddAsync(new SalonService
                 {
                     SalonId = salonId,
                     ServiceId = serviceId,
@@ -41,14 +41,14 @@ namespace AspNetCoreTemplate.Services.Data.Services
                 });
             }
 
-            await this.salonServicesRepository.SaveChangesAsync();
+            await this._repo.SaveChangesAsync();
         }
 
         public async Task AddAsync(IEnumerable<string> salonsIds, int serviceId)
         {
             foreach (var salonId in salonsIds)
             {
-                await this.salonServicesRepository.AddAsync(new SalonService
+                await this._repo.AddAsync(new SalonService
                 {
                     SalonId = salonId,
                     ServiceId = serviceId,
@@ -56,13 +56,13 @@ namespace AspNetCoreTemplate.Services.Data.Services
                 });
             }
 
-            await this.salonServicesRepository.SaveChangesAsync();
+            await this._repo.SaveChangesAsync();
         }
 
         public async Task ChangeAvailableStatusAsync(string salonId, int serviceId)
         {
             var salonService =
-                await this.salonServicesRepository
+                await this._repo
                 .All()
                 .Where(x => x.SalonId == salonId
                             && x.ServiceId == serviceId)
@@ -70,7 +70,7 @@ namespace AspNetCoreTemplate.Services.Data.Services
 
             salonService.Available = !salonService.Available;
 
-            await this.salonServicesRepository.SaveChangesAsync();
+            await this._repo.SaveChangesAsync();
         }
     }
 }
