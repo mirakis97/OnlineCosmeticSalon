@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/Identity" Path="C:\Users\Miroslav Vasilev\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.1\staticwebassets\V4\" />
+  <ContentRoot BasePath="_content/AspNetCoreTemplate.Web" Path="C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\wwwroot\" />
+</StaticWebAssets>

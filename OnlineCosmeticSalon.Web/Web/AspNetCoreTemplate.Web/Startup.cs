@@ -75,7 +75,9 @@
 
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
+            services.AddTransient<IBlogPostsService, BlogPostsService>();
             services.AddTransient<ICategoriesService, CategoriesService>();
+            services.AddTransient<IServicesService, ServicesService>();
             services.AddTransient<ICitiesService, CitiesService>();
             services.AddTransient<ISalonsService, SalonsService>();
             services.AddTransient<ISalonServicesService, SalonServicesService>();

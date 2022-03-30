@@ -537,4 +537,3 @@ C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTem
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\Microsoft.Extensions.WebEncoders.dll
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\obj\Debug\net5.0\AspNetCoreTemplate.Web.Tests.MvcApplicationPartsAssemblyInfo.cs
