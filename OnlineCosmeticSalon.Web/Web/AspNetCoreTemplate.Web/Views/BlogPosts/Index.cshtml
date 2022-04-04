@@ -1,0 +1,79 @@
+﻿@model AspNetCoreTemplate.Web.ViewModels.BlogPosts.BlogPostsPaginatedListViewModel
+@{
+    this.ViewData["Title"] = "Blog";
+}
+
+<div class="row">
+    <!-- News Posts -->
+    <div class="col-lg-8">
+        <div class="news_posts">
+            @foreach (var blogPost in Model.BlogPosts)
+            {
+                <hr class="bg-dark mx-4" style="height: 6px;" />
+
+                <!-- News Post -->
+                <div class="news_post">
+                    <div class="news_post_image"><img src="@blogPost.ImageUrl" alt=""></div>
+                    <div class="news_post_content">
+                        <div class="news_post_title">
+                            <a asp-area="" asp-controller="BlogPosts" asp-action="Details" asp-route-id="@blogPost.Id">@blogPost.Title</a>
+                        </div>
+                        <div class="news_post_info">
+                            <ul class="d-flex flex-row align-items-center justify-content-start">
+                                <li>
+                                    <a asp-area="" asp-controller="BlogPosts" asp-action="Details" asp-route-id="@blogPost.Id">by @blogPost.Author</a>
+                                </li>
+                                <li>
+                                    <a asp-area="" asp-controller="BlogPosts" asp-action="Details" asp-route-id="@blogPost.Id">@blogPost.CreatedOn.Date.ToString("D")</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="news_post_text">
+                            <p>@blogPost.Content</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-lg-4">
+        <div class="news_sidebar">
+            <!-- Latest News -->
+            <div class="sidebar_latest">
+                <div class="sidebar_title">Latest Blog Posts</div>
+                <div class="sidebar_latest_container">
+                    <div>
+                        @*@await Component.InvokeAsync("LatestBlogPosts", 10)*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@{
+    var prevDisabled = !Model.BlogPosts.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.BlogPosts.HasNextPage ? "disabled" : "";
+}
+
+@if (ViewData["CurrentSort"] == null)
+{
+    <div class="row ml-5">
+        <div class="m-5">
+            <a asp-action="Index"
+               asp-route-pageNumber="@(Model.BlogPosts.PageIndex - 1)"
+               style="color: #BA55D3" class="btn btn-outline-secondary btn-lg @prevDisabled">
+                <i class="fa fa-arrow-left"></i>
+            </a>
+        </div>
+        <div class="m-5">
+            <a asp-action="Index"
+               asp-route-pageNumber="@(Model.BlogPosts.PageIndex + 1)"
+               style="color: #BA55D3" class="btn btn-outline-secondary btn-lg @nextDisabled">
+                <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+}
