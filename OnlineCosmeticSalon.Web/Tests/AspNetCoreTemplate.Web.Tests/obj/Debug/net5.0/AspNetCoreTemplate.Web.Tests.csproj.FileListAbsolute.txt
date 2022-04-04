@@ -172,7 +172,6 @@ C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTem
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\refs\System.Data.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\refs\System.Diagnostics.Contracts.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\refs\System.Diagnostics.Debug.dll
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\refs\System.Diagnostics.DiagnosticSource.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\refs\System.Diagnostics.EventLog.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\refs\System.Diagnostics.FileVersionInfo.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\refs\System.Diagnostics.Process.dll
@@ -537,3 +536,5 @@ C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTem
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\Microsoft.Extensions.WebEncoders.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\obj\Debug\net5.0\AspNetCoreTemplate.Web.Tests.MvcApplicationPartsAssemblyInfo.cs

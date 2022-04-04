@@ -508,3 +508,8 @@ C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTempl
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Views\Salons\Details.cshtml.g.cs
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Views\Salons\Index.cshtml.g.cs
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Views\Appointments\CancelAppointment.cshtml.g.cs
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Views\Appointments\Index.cshtml.g.cs
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Views\Appointments\MakeAnAppointment.cshtml.g.cs
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Views\Appointments\RatePastAppointment.cshtml.g.cs
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Web\AspNetCoreTemplate.Web\obj\Debug\net5.0\Razor\Views\Appointments\UnavailableService.cshtml.g.cs

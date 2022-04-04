@@ -47,6 +47,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.15",
           "Microsoft.AspNetCore.Identity.UI": "5.0.15",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "5.0.1",
+          "Microsoft.EntityFrameworkCore.Design": "5.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.15",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
