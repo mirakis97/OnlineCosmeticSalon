@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "8jjnBYKvOtDoS8iQDuAgCxsXag6incjpmiYSoIXzz4AMjgzMp5kwnrzO68uR3fytM/o1/aCzZOLso10ZVpZyVw==",
+  "dgSpecHash": "ssxgIHr45aIwA2kjVeGdv2kl4DDcIZWEhalSC4J/S209vL635Vg9Ay7gbMwNTBaz1xRToBYKGUhae+hW/fnM3A==",
   "success": true,
   "projectFilePath": "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Web\\AspNetCoreTemplate.Web.ViewModels\\AspNetCoreTemplate.Web.ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.3\\microsoft.aspnetcore.cryptography.internal.6.0.3.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.3\\microsoft.aspnetcore.cryptography.keyderivation.6.0.3.nupkg.sha512",
+    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.15\\microsoft.aspnetcore.http.features.5.0.15.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.3\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.3.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
@@ -29,6 +30,7 @@
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

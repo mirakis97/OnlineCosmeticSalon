@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "AspNetCoreTemplate.Services.Messaging/1.0.0": {
         "dependencies": {
-          "SendGrid": "9.22.0",
+          "SendGrid": "9.27.0",
           "StyleCop.Analyzers": "1.2.0-beta.312"
         },
         "runtime": {
@@ -69,19 +69,19 @@
           }
         }
       },
-      "SendGrid/9.22.0": {
+      "SendGrid/9.27.0": {
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
-          "starkbank-ecdsa": "1.2.0"
+          "starkbank-ecdsa": "1.3.3"
         },
         "runtime": {
           "lib/netstandard2.0/SendGrid.dll": {
-            "assemblyVersion": "9.22.0.0",
-            "fileVersion": "9.22.0.0"
+            "assemblyVersion": "9.27.0.0",
+            "fileVersion": "9.27.0.0"
           }
         }
       },
-      "starkbank-ecdsa/1.2.0": {
+      "starkbank-ecdsa/1.3.3": {
         "runtime": {
           "lib/netstandard2.1/StarkbankEcdsa.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -422,19 +422,19 @@
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
     },
-    "SendGrid/9.22.0": {
+    "SendGrid/9.27.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5vXkfOqPhi6W5/tEmRcTVJakT69SXiCGqVRERYF4ZAtJ4alylzlOqin6w8Xrog0Brf3RL+4BKXI+CwKbFLtteA==",
-      "path": "sendgrid/9.22.0",
-      "hashPath": "sendgrid.9.22.0.nupkg.sha512"
+      "sha512": "sha512-kMyXRQ8hmN2bG3tYZ7T31Ufl1kXkpuP5+WBh1BJ32WY31DTnBTCVGURoIqfbTo/tRuQfAYLxra6C8cQGN6kk+A==",
+      "path": "sendgrid/9.27.0",
+      "hashPath": "sendgrid.9.27.0.nupkg.sha512"
     },
-    "starkbank-ecdsa/1.2.0": {
+    "starkbank-ecdsa/1.3.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hP53QPYOOEIR44EK9phz+DYliM6DEieDZxpb8GZzE+++qyrWqUscKcyHCC6L9yu/ehllYtqxtT4qrjWDsuQlUQ==",
-      "path": "starkbank-ecdsa/1.2.0",
-      "hashPath": "starkbank-ecdsa.1.2.0.nupkg.sha512"
+      "sha512": "sha512-OblOaKb1enXn+dSp7tsx9yjwV+/BEKM9jFhshIkZTwCk7LuTFTp+wSon6rFzuPiIiTGtvVWQNUw2slHjGktJog==",
+      "path": "starkbank-ecdsa/1.3.3",
+      "hashPath": "starkbank-ecdsa.1.3.3.nupkg.sha512"
     },
     "StyleCop.Analyzers/1.2.0-beta.312": {
       "type": "package",

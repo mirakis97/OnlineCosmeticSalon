@@ -3,7 +3,7 @@
     using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
-
+    using AspNetCoreTemplate.Data.Seeding.MyCustomSeeds;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Logging;
 
@@ -26,7 +26,7 @@
             var seeders = new List<ISeeder>
                           {
                               new RolesSeeder(),
-                              new SettingsSeeder(),
+                              new AccountsSeeder(),
                           };
 
             foreach (var seeder in seeders)

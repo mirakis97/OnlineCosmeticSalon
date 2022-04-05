@@ -4,6 +4,8 @@
     {
         public const string AdministratorRoleName = "Administrator";
 
+        public const string ManagerRoleName = "Manager";
+
         public const string SystemName = "Online Cosmetic Salon";
 
         public const string CloudName = "Cosmetic-salon";
@@ -28,6 +30,16 @@
             public const int AddressMaxLength = 100;
 
             public const int AddressMinLength = 5;
+        }
+        public static class AccountsSeeding
+        {
+            public const string Password = "123456789";
+
+            public const string AdministratorEmail = "mirakis97@administrator.com";
+
+            public const string ManagerEmail = "vasilev97@manager.com";
+
+            public const string UserEmail = "user@user.com";
         }
         public static class ErrorMessages
         {
@@ -59,17 +71,17 @@
         }
         public static class SeededDataCounts
         {
-            // public const int BlogPosts = 4;
+            public const int BlogPosts = 4;
 
             public const int Categories = 6;
 
-            //public const int Services = 55;
+            public const int Services = 55;
 
-            // public const int Cities = 2;
+            public const int Cities = 2;
 
-            //public const int Salons = 18;
+            public const int Salons = 18;
 
-            //public const int Appointments = 54;
+            public const int Appointments = 54;
         }
     }
 }

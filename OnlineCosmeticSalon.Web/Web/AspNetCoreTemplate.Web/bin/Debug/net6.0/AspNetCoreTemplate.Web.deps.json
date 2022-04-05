@@ -3137,7 +3137,8 @@
       "AspNetCoreTemplate.Web.ViewModels/1.0.0": {
         "dependencies": {
           "AspNetCoreTemplate.Data.Models": "1.0.0",
-          "AspNetCoreTemplate.Services.Mapping": "1.0.0"
+          "AspNetCoreTemplate.Services.Mapping": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.15"
         },
         "runtime": {
           "AspNetCoreTemplate.Web.ViewModels.dll": {}

@@ -134,13 +134,9 @@ C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTem
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Services.Data.Tests\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Services.Data.Tests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Services.Data.Tests\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Services.Data.Tests\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Services.Data.Tests\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Services.Data.Tests\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Services.Data.Tests\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Services.Data.Tests\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Services.Data.Tests\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Services.Data.Tests\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Services.Data.Tests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Services.Data.Tests\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Services.Data.Tests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll

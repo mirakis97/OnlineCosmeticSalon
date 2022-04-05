@@ -1,0 +1,56 @@
+﻿@model AspNetCoreTemplate.Web.ViewModels.Categories.CategoriesListViewModel
+@using AspNetCoreTemplate.Common
+@{
+    this.ViewData["Title"] = "Categories";
+}
+
+<h2>
+    All Categories (@Model.Categories.Count())
+    <span>
+        <a class="btn btn-info" asp-area="Administration" asp-controller="Categories" asp-action="AddCategory">Add New Category</a>
+    </span>
+</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Image</th>
+            <th scope="col">Description</th>
+            <th scope="col">Services</th>
+            <th scope="col">Salons</th>
+            <th scope="col">Delete Button</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in this.Model.Categories)
+        {
+            <tr>
+                <th scope="row">@category.Name</th>
+                <td>
+                    <img class="align-self-center" src="@category.ImageUrl" style="width:180px;height:120px;">
+                </td>
+                <td>@category.Description</td>
+                <td>@category.ServicesCount</td>
+                <td>@category.SalonsCount</td>
+                <td>
+                    @if (category.Id <= GlobalConstants.SeededDataCounts.Categories)
+                    {
+                        <div class="text-muted" style="font-size:smaller">
+                            Seeded Data <br />Cannot Be Deleted
+                        </div>
+                    }
+                    else
+                    {
+                        <form method="post">
+                            <button type="submit" class="btn btn-danger btn-sm"
+                                    asp-area="Administration" asp-controller="Categories" asp-action="DeleteCategory" asp-route-id="@category.Id">
+                                Delete
+                            </button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9aYA99q+NOQZeGnWeHlGFeV1of+7DZFU5RzRxz/ycrJIP7oNNDcsOtUEdm5vRoDJxscTtiqaa5BsU8QQh34V5g==",
+  "dgSpecHash": "8tZTlrRHD6CGl+IsEE2M8qtofIZL1FJme56iOTw5fe8KQFDeAJMmiSReN/spzgoIOQGkkZOeL72iMS0Q1+U7WA==",
   "success": true,
   "projectFilePath": "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Tests\\AspNetCoreTemplate.Web.Tests\\AspNetCoreTemplate.Web.Tests.csproj",
   "expectedPackageFiles": [
