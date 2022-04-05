@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wORPFReMB1b+6+4qMY3HPHRKRbrQPtLlnFC4rxcSmDDuSkCP+32IZnxrNQCT9IN+SBnckg1iVhwlFKKa+ECR+A==",
+  "dgSpecHash": "U5J8QH0d/TwbnMlJW4tTgIbjg/lQ65D4ur2xkgleFOTIi+sRvE+mDuwjyAwsB/ZcPZSCVpbMOj1Z2hDdqo/ZwQ==",
   "success": true,
   "projectFilePath": "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Services\\AspNetCoreTemplate.Services.Messaging\\AspNetCoreTemplate.Services.Messaging.csproj",
   "expectedPackageFiles": [
@@ -8,8 +8,8 @@
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
-    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\sendgrid\\9.22.0\\sendgrid.9.22.0.nupkg.sha512",
-    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\starkbank-ecdsa\\1.2.0\\starkbank-ecdsa.1.2.0.nupkg.sha512",
+    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\sendgrid\\9.27.0\\sendgrid.9.27.0.nupkg.sha512",
+    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",

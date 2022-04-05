@@ -1,0 +1,12 @@
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services.Mapping\bin\Debug\net6.0\AspNetCoreTemplate.Services.Mapping.deps.json
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services.Mapping\bin\Debug\net6.0\AspNetCoreTemplate.Services.Mapping.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services.Mapping\bin\Debug\net6.0\AspNetCoreTemplate.Services.Mapping.pdb
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services.Mapping\obj\Debug\net6.0\AspNetCoreTemplate.Services.Mapping.csproj.AssemblyReference.cache
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services.Mapping\obj\Debug\net6.0\AspNetCoreTemplate.Services.Mapping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services.Mapping\obj\Debug\net6.0\AspNetCoreTemplate.Services.Mapping.AssemblyInfoInputs.cache
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services.Mapping\obj\Debug\net6.0\AspNetCoreTemplate.Services.Mapping.AssemblyInfo.cs
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services.Mapping\obj\Debug\net6.0\AspNetCoreTemplate.Services.Mapping.csproj.CoreCompileInputs.cache
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services.Mapping\obj\Debug\net6.0\AspNetCoreTemplate.Services.Mapping.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services.Mapping\obj\Debug\net6.0\refint\AspNetCoreTemplate.Services.Mapping.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services.Mapping\obj\Debug\net6.0\AspNetCoreTemplate.Services.Mapping.pdb
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Services\AspNetCoreTemplate.Services.Mapping\obj\Debug\net6.0\ref\AspNetCoreTemplate.Services.Mapping.dll

@@ -1,0 +1,12 @@
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Data\AspNetCoreTemplate.Data.Common\bin\Debug\net6.0\AspNetCoreTemplate.Data.Common.deps.json
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Data\AspNetCoreTemplate.Data.Common\bin\Debug\net6.0\AspNetCoreTemplate.Data.Common.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Data\AspNetCoreTemplate.Data.Common\bin\Debug\net6.0\AspNetCoreTemplate.Data.Common.pdb
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Data\AspNetCoreTemplate.Data.Common\obj\Debug\net6.0\AspNetCoreTemplate.Data.Common.csproj.AssemblyReference.cache
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Data\AspNetCoreTemplate.Data.Common\obj\Debug\net6.0\AspNetCoreTemplate.Data.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Data\AspNetCoreTemplate.Data.Common\obj\Debug\net6.0\AspNetCoreTemplate.Data.Common.AssemblyInfoInputs.cache
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Data\AspNetCoreTemplate.Data.Common\obj\Debug\net6.0\AspNetCoreTemplate.Data.Common.AssemblyInfo.cs
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Data\AspNetCoreTemplate.Data.Common\obj\Debug\net6.0\AspNetCoreTemplate.Data.Common.csproj.CoreCompileInputs.cache
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Data\AspNetCoreTemplate.Data.Common\obj\Debug\net6.0\AspNetCoreTemplate.Data.Common.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Data\AspNetCoreTemplate.Data.Common\obj\Debug\net6.0\refint\AspNetCoreTemplate.Data.Common.dll
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Data\AspNetCoreTemplate.Data.Common\obj\Debug\net6.0\AspNetCoreTemplate.Data.Common.pdb
+C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Data\AspNetCoreTemplate.Data.Common\obj\Debug\net6.0\ref\AspNetCoreTemplate.Data.Common.dll

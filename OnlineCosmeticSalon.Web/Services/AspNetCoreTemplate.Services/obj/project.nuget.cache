@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Dw2FVmeCM+duWv0pbM01Lu4NX4PaJSAs2msB18BdZP65K+jlAKvagn+8r/8ppjV+AIXohgyBdlvz5B3CVDBcgQ==",
+  "dgSpecHash": "DN8kAauPldo9PbGnU2XwBOm+I1kJn03nsCrMp3a3fKdgpvdoY0TEsx/lyiCTJJ2iuuZy2YhD37k0MTtSVlayFQ==",
   "success": true,
   "projectFilePath": "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Services\\AspNetCoreTemplate.Services\\AspNetCoreTemplate.Services.csproj",
   "expectedPackageFiles": [
@@ -15,13 +15,8 @@
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512",
-    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
-    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
-    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
-    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.text.encodings.web\\5.0.0\\system.text.encodings.web.5.0.0.nupkg.sha512",
-    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\Miroslav Vasilev\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
