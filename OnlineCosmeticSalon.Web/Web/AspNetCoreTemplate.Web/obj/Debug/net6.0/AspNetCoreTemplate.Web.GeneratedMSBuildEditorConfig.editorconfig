@@ -43,6 +43,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2Fsb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Administration/Views/Services/AddService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2VydmljZXNcQWRkU2VydmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Administration/Views/Services/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2VydmljZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Administration/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
