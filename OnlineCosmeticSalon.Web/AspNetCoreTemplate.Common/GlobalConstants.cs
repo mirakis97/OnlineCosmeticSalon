@@ -71,17 +71,17 @@
         }
         public static class SeededDataCounts
         {
-            public const int BlogPosts = 4;
+            public const int BlogPosts = 5;
 
             public const int Categories = 6;
 
-            public const int Services = 55;
+            public const int Services = 70;
 
-            public const int Cities = 2;
+            public const int Cities = 8;
 
             public const int Salons = 18;
 
-            public const int Appointments = 54;
+            public const int Appointments = 65;
         }
     }
 }

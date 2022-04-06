@@ -697,7 +697,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Services\\AspNetCoreTemplate.Services.Data\\AspNetCoreTemplate.Services.Data.csproj": {
+                "projectPath": "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Services\\AspNetCoreTemplate.Services.Data\\AspNetCoreTemplate.Services.Data.csproj"
+              },
+              "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Web\\AspNetCoreTemplate.Web.ViewModels\\AspNetCoreTemplate.Web.ViewModels.csproj": {
+                "projectPath": "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Web\\AspNetCoreTemplate.Web.ViewModels\\AspNetCoreTemplate.Web.ViewModels.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -710,6 +717,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
