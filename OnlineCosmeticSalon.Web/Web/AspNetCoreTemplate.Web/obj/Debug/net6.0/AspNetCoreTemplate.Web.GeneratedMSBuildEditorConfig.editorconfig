@@ -31,6 +31,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Administration/Views/Cities/AddCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcQ2l0aWVzXEFkZENpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Administration/Views/Cities/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcQ2l0aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Administration/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
