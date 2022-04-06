@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TwoZlezH+ombSDGH/ykM67P4lzzzoXWsLgF6cbGLoYs=",
+  "Hash": "8Vs2omTkMmWkEAbco0Y5j9yJcrgOUPl9G3U79+v9zxQ=",
   "Source": "AspNetCoreTemplate.Web",
   "BasePath": "_content/AspNetCoreTemplate.Web",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Web\\AspNetCoreTemplate.Web\\wwwroot\\css\\responsive.css",
+      "SourceId": "AspNetCoreTemplate.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Web\\AspNetCoreTemplate.Web\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreTemplate.Web",
+      "RelativePath": "css/responsive.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\responsive.css"
+    },
+    {
+      "Identity": "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Web\\AspNetCoreTemplate.Web\\wwwroot\\css\\responsive.min.css",
+      "SourceId": "AspNetCoreTemplate.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Web\\AspNetCoreTemplate.Web\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreTemplate.Web",
+      "RelativePath": "css/responsive.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\responsive.min.css"
+    },
     {
       "Identity": "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Web\\AspNetCoreTemplate.Web\\wwwroot\\css\\site.css",
       "SourceId": "AspNetCoreTemplate.Web",

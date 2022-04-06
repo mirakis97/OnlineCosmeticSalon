@@ -1,12 +1,26 @@
 ﻿@using AspNetCoreTemplate.Common
+@using AspNetCoreTemplate.Data.Models
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@this.ViewData["Title"] - @GlobalConstants.SystemName</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    <environment names="Development">
+        <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/plugins/fontawesome-free/css/fontawesome.min.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/css/site.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/css/responsive.css" rel="stylesheet" asp-append-version="true" />
+    </environment>
+    <environment names="Staging,Production">
+        <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/plugins/fontawesome-free/css/fontawesome.min.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/css/site.min.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/css/responsive.min.css" rel="stylesheet" asp-append-version="true" />
+    </environment>
 </head>
 <body>
     <header>
@@ -17,6 +31,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
@@ -24,8 +39,22 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Settings" asp-action="Index">Settings</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Index">Categories</a>
+                        </li><li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Salons" asp-action="Index">Salons</a>
+                        </li><li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="BlogPosts" asp-action="Index">Blog</a>
+                        </li><li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Appointments" asp-action="Index"><i class="fa fa-calendar" aria-hidden="true"></i> Appointments</a>
                         </li>
+
+                        @if (this.SignInManager.IsSignedIn(this.User) && this.User.IsInRole(GlobalConstants.ManagerRoleName))
+                        {
+                            <li class="menu_item">
+                                <a asp-area="Manager" asp-controller="Dashboard" asp-action="Index"><i class="fa fa-tasks" aria-hidden="true"></i> Salon Manager</a>
+                            </li>
+                        }
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
@@ -34,14 +63,14 @@
             </div>
         </nav>
     </header>
-    
+
     <div class="container">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
             @this.RenderBody()
         </main>
     </div>
-    
+
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; @DateTime.Now.Year - @GlobalConstants.SystemName - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
