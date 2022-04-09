@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AspNetCoreTemplate.Web.Infrastructure
 {
-    internal class CategoriesSimpleListViewComponent : ViewComponent
+    public class CategoriesSimpleListViewComponent : ViewComponent
     {
         private readonly ICategoriesService categoriesService;
 

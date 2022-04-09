@@ -1,16 +1,14 @@
 ﻿@model AspNetCoreTemplate.Web.ViewModels.Categories.CategoriesListViewModel
 
 @{
-    this.ViewData["Title"] = "Categories of Beauty Services";
+    this.ViewData["Title"] = "Categories of the services";
 }
 
 <div class="row">
-    <!-- News Posts -->
     @foreach (var category in Model.Categories)
     {
         <div class="col-lg-4">
             <hr class="bg-dark mx-4" style="height: 6px;" />
-            <!-- News Post -->
             <div class="news_post">
                 <div class="news_post_image"><img src="@category.ImageUrl" alt=""></div>
                 <div class="news_post_content">

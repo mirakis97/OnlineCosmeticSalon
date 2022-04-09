@@ -61,6 +61,27 @@
 
             public const string Rating = "Please choose a valid number of stars from 1 to 5.";
         }
+        public static class Images
+        {
+            public const string Index = "https://res.cloudinary.com/beauty-booking/image/upload/v1586874219/index_iyfzwc.jpg";
+
+            public const string CoverBackground = "https://res.cloudinary.com/beauty-booking/image/upload/v1586874218/cover-bg_nnwh6d.jpg";
+
+            public const string Footer = "https://res.cloudinary.com/beauty-booking/image/upload/v1586874219/footer_rvuuls.jpg";
+
+            // BlogPosts
+            public const string MakeupBag = "https://res.cloudinary.com/dck6iktyj/image/upload/v1649495161/Image-1-2048x1365_bcam8s.jpg";
+            public const string FallMakeUp = "https://res.cloudinary.com/dck6iktyj/image/upload/v1649495678/fall-leaves-1474322117_qadfwa.jpg";
+            public const string MakeUpTips = "https://res.cloudinary.com/dck6iktyj/image/upload/v1649495951/%D0%B8%D0%B7%D1%82%D0%B5%D0%B3%D0%BB%D0%B5%D0%BD_%D1%84%D0%B0%D0%B9%D0%BB_xx6isr.jpg";
+            public const string SummerHair = "https://res.cloudinary.com/dck6iktyj/image/upload/v1649496175/Braided-Ponytail-1080x1620_e87zhy.jpg";
+   
+            // Categories
+            
+
+            // Salons
+            
+        }
+        
         public static class DateTimeFormats
         {
             public const string DateFormat = "dd-MM-yyyy";
