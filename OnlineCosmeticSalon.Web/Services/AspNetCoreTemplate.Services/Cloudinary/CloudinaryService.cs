@@ -31,7 +31,7 @@
             {
                 ImageUploadParams uploadParams = new ImageUploadParams
                 {
-                    Folder = "images",
+                    Folder = "samples",
                     File = new FileDescription(fileName, ms),
                 };
 

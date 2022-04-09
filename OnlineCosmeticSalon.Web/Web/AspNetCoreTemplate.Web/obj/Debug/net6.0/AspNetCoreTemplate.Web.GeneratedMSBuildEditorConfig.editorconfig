@@ -67,6 +67,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2VydmljZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Administration/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Administration/Views/Shared/_AdministratorLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2hhcmVkXF9BZG1pbmlzdHJhdG9yTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Administration/Views/Shared/_CookieConsentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Administration/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Administration/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -233,6 +249,46 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Manager/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xEYXNoYm9hcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Manager/Views/Salons/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTYWxvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Manager/Views/Shared/Components/AllAppointmentsBySalon/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcQ29tcG9uZW50c1xBbGxBcHBvaW50bWVudHNCeVNhbG9uXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Manager/Views/Shared/Components/SalonsSimpleList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcQ29tcG9uZW50c1xTYWxvbnNTaW1wbGVMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Manager/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Manager/Views/Shared/_CookieConsentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcX0Nvb2tpZUNvbnNlbnRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Manager/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcX0xvZ2luUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Manager/Views/Shared/_ManagerLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcX01hbmFnZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Manager/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Areas/Manager/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Miroslav Apps/Programing/ASP.NET-Core-Template-master/src/Web/AspNetCoreTemplate.Web/Views/Appointments/CancelAppointment.cshtml]
