@@ -16,209 +16,90 @@ namespace AspNetCoreTemplate.Data.Seeding.MyCustomSeeds
             }
 
             var blogPosts = new BlogPost[]
-                {
-                    new BlogPost // 1
+                 {
+                    new BlogPost // Id = 1
                     {
-                        Title = "5 Essentials for Your Makeup Bag",
-                        Content = @"Have you ever been out and about and needed a quick makeup fix? Or have you ever wanted to pair down your makeup bag to essentials that you can use anywhere? Whether you’re an on-the-go gal, or or just need a quick makeup refresh that won’t take much time, we have the top five essentials to have on hand in your makeup bag to quickly freshen up your look and continue looking fabulous all day.The best part? All of these items can fit any budget and take up very little space in your bag.
+                        Title = "Saving Stressed Skin",
+                        Content = @"We hear it all the time, stress is the leading factor of disease within the body…and the skin is no different. As our largest organ, it’s paramount we learn how to keep damage in check during anxiety-ridden times, especially if your face is the place that’s showing signs of stress.
 
-1.Makeup Wipes.makeup wipes
-Makeup wipes are an absolute essential for any makeup bag. While we love to have these at home to use to get off pesky eye makeup before a proper cleansing at the end of the night, they’re super convenient to have on hand during the day. Makeup wipes can help remove any smudges that may occur during the day. If you need a quick refresher, a swipe of a makeup wipe can help remove oil and product build up, leaving skin feeling clean without needing to head to the sink. Look for wipes that are safe for use around the eye area and be gentle when using; there’s no need for scrubbing when using a makeup wipe. Many brands also carry on-the-go style packaging, with 1-3 wipes per package, so they don’t take up too much room in your makeup bag.
+Wrinkles
 
-2.Concealer. Concealer is a great addition to a makeup bag because it has so many uses. Dark circles? Dab on some concealer underneath the eyes to make you look more awake. A pesky pimple? Apply a thin coat of concealer to tone down the affected area. Concealer is particularly useful because it can be used effectively to spot-treat areas, rather than re-apply an entire new face of makeup. An added benefit? Concealer often comes in small tubes and is easy to apply- many formulas include a wand, or are easy to apply by dabbing with a ring finger.
-3.A Tinted Lip Balm. One of the worst feelings is having dry skin, especially chapped lips. A tinted lip balm is a great option to have on hand in your makeup bag. Tinted lip balms come in a variety of colors and levels of opacity- some provide a very sheer color while others can nearly stand in as a lipstick. Because it is a balm, it will provide the much needed moisture for your lips, while also adding a bit of shine and color. Tinted lip balms are a great option for on-the-go because it eliminates multiple steps of putting on lipstick, yet provides the medicinal benefits of a lip balm. Another perhaps less thought of way you can use tinted lip balm is on your cheeks. Apply dabs of the balm to the apples of your cheeks and use your fingers to blend upwards to make a blush. It’s like having two products in one!
-4.Dry Shampoo. We’ll be honest: we would truly be lost without dry shampoo. Dry shampoo is a necessity that should be added to any makeup bag. Typically we use dry shampoo to absorb any excess oil on hair on an off day between washes, but dry shampoos have any other uses as well. If hair is feeling limp and you’d like to add a bit of volume,lift sections of hair around the crow of your head and spritz a bit of product at the roots. Then, gently massage into hair to get a perfectly tousled look. Dry shampoo can also be added for texture and a gentle hold if you’re putting bobby pins or clips in your hair. If you have been rocking bangs lately, dry shampoo can also be sprayed on the underside of your bangs to prevent strands from becoming oily and sticking to your forehead.
-5.Hair-ties. makeup 
-A bad hair day can quickly lead to a disaster. However, there’s truly nothing a hair tie can’t fix, which is why we consider them an absolute must for your makeup bag. The simplest and most fool-proof look to create with a hair tie is a low bun. A low bun can be polished and professional, but keeps unruly hair out of your face. Other simple, yet fun looks are a single high ponytail or a messy bun. We recommend using your dry shampoo to provide volume and texture for these looks to give an extra ‘oomph.’ Some other great looks with a hair tie are half up looks in which half of your hair is pulled into a ponytail or bun, with the other half down, or a french or fishtail braid. A hair tie provides lots of options to create great styles.
-",
-                        Author = "Tricoci University",
-                        ImageUrl = GlobalConstants.Images.MakeupBag,
-                    },
-                    new BlogPost // 2
-                    {
-                        Title = "6 Makeup Trends for Fall",
-                        Content = @"At Tricoci University, our students live and breathe all of the latest beauty trends. Each week, our students narrow down a list of products they’ve tried and decide on the most fashionable and flattering styles.
+Noticing more fine lines and laxity in your skin? Stress may be impacting you on a hormonal level. Cortisol, the hormone released in response to stress, is the natural enemy of collagen, breaking down the connective tissue that keeps your complexion taut and firm. But beyond damaging collagen, anxiety can also cause us to hold certain facial expressions, such as furrowing the brow which can eventually cause permanent wrinkling on the forehead and around the eyes.
 
-Tricoci University students have curated six top beauty trends—some pleasantly surprising, others tried-and-true fall staples.
+The Solution: Become mindful of when you are holding facial expressions in moments of stress. Breathe in deeply, and as you exhale, visualize your face being relaxed and smooth. Meditation is also helpful, even if you have just a few moments. Download a meditation app onto your mobile device so you have no excuse to take a quick beauty bliss moment. Lack of hydration is typically a wrinkle culprit, so make sure you consume at least 8 glasses of pure water each day to prevent dry skin and to eliminate toxins. For a quick hydration fix, use a serum that contains hyaluronic acid, an ingredient that naturally occurs in your body and holds 1,000 times its weight in water. It even pulls moisture from the air into the skin, instantly hydrating and leaving you with a gorgeous glow.
 
--The Graphic Eye
--graphic eye
+Under-Eye Bags
 
-If a bold graphic eye feels unconventional for your taste, you can always subdue the look with a natural, demure finish by applying a thin line in earth tones. The graphic eye trend will fuel your creativity for those with a steady hand and who like experimenting with painterly aesthetics.
+Tomorrow’s to-do list can weigh on your mind, keeping you from getting enough beauty sleep. This can cause fluid to pool below your lower eyelid resulting in a puffy mess in the morning. Stomach sleepers, bad news: You can expect the puffiness of your under-eye bags to be even worse due to gravity.
 
-Here are some of our favorite interpretations of the graphic eye:
+The Solution: Get at least eight hours of sleep. Since the light from your smartphone’s screen simulates sunlight, shut off any electronic devices an hour before you go to sleep. Use your downtime to enjoy a cup of caffeine-free chamomile tea to help calm and relax you before bed. If you still wake up with puffy eyes in the morning, hold the back of a cold spoon (pop it in the fridge) up to your under-eye area and massage it from the inner to the outer corner of your eye to jumpstart the fluid’s drainage. Then, apply concealer in an inverted triangle under your eye. The brightness will start slightly below your nostrils and build toward your eye, concealing the puffiness.
 
--A not-so-subtle vibrant and beautifully applied graphic eye with rainbow colors
--A colorful graphic eye coupled with natural skin tone
--A clean, soft and cloudy shadow contrasted with a sharp, clean graphic liner
--A Smoldering Smoky Eye With a Twist
--smoky eye with a twist
-
-Skip the liner altogether and opt for a smoky winged eye this fall. Or contrast a smoky eye with natural skin tone with loaded-up lashes to brighten the eyes. For evening wear, you can always rely on the smoky eye, but make it extra.
-
-Some of our favorite inspirations include:
-
--High-pigment eyeliner works beautifully for a winged smoky eye
--A blend of warm and sultry shades for a smoldering smoky eye
--Loaded-on lashes paired with a charcoal smoky eye
--Lashing Out
--lashing out
-
-Whether you’re going for wet-looking lashes or 90s-inspired eyelash extensions, our students and their protégés are serving up eye-opening lashes.
-
--The coveted feathery extra-volume lashes
--Lashes that are loaded up and dramatic
--Channel old Hollywood with lustrous lashes 
--Brightly Colored Lids
--brightly-colored-lids
-
-From fuchsia to electric blue, this fall has a charming color story to play with. Brighten your eyes with neon pinks and embolden your eyes with volumizing lashes.
-
--A pale powder blue shadow with a pop of color on the pout
--Fall has a place for warm tones with a splash of summer hues
--A head-turning blue and green palette this fall is trending
--Full Tinted Lips
--full tinted lips
-
-A perfectly tinted pout is a fall favorite. Even a quality pigmented color won’t make your lips look luscious if they’re not properly hydrated in the fall and winter months. Prep your pout with lip treatments and sugar lip scrubs before applying a tint or color.
-
-Our students have concluded that the 90s brown lips are making a comeback, and the vampy fall red is always in style. If you favor a more rosy tint for your lips, soft pinks and tangerines are making a comeback this fall.
-
-Brown lip with brown liner channeling the 1990s
-Vampy red or burgundy for a perfect fall pout
-Pinks and shades that emphasize your natural lip color
--Bold and Soft Color Story
--bold and soft color story
-
-A soft lip color coupled with bold liner and lashes balances out the look and brings attention to the eyes. Add a rosy cream-based blush to the cheeks and a lip tint that enhances your natural lip color. Get theatrical with your eyes for a perfectly put-together bold and soft color story.
-
--Contour and highlight
--Add a touch of color with liquid blush
--Bold wet-looking eyelashes
-Find fall beauty tip inspiration, and follow the latest posts from Tricoci University students or contact us today to inquire about courses. For more insider tips on all the most flattering makeup trends, check out our infographic that breaks down the best  back to school beauty trends.
-",
-                        Author = "Tricoci University",
+In today’s world, stress seems inevitable, yet, there are simple solutions that can make all the difference in showing a face that appears to have just returned from a relaxing vacation.",
+                        Author = "Elizabeth Scarcella",
                         ImageUrl = GlobalConstants.Images.FallMakeUp,
                     },
-                    new BlogPost // 3
+                    new BlogPost // Id = 2
                     {
-                        Title = "Makeup Tips and Tricks for Video Chatting",
-                        Content = @"Video chatting is extremely important in today’s modern age. No matter who you are or what you’re doing in your video chat, chances are you’re having to video chat more and more recently. However, if you’ve ever snagged a look at yourself in the video chat, chances are you know the way you look in real life doesn’t always reflect how you look on camera. Here’s how you can make your look even better for your video chat.
-1.Get Natural Light If Possible
-Natural light is always going to hit your face in all the right ways, and it’s one of the best ways to make sure you look amazing when you’re on a video chat. If you can’t get natural light, try your best to use a warm-glow light. Plus, if you make sure the light bounces off another surface like a nearby wall, you can get a great look without appearing too washed out.
-2.Use a Color-Correcting Cream
-Before you apply your foundation, a color-correcting cream can make your face look more evenly toned. This is especially true if you’re dealing with redness because redness tends to show up very well on camera. A color-correcting cream will tone down that redness, making you look irresistible after you’ve added your foundation.
-3.Pay Close Attention to Tired Eyes
-Tired eyes can look almost sunken in the viewfinder, which means that paying close attention to your eyes is absolutely a must. Add a bit of highlighter to the corner of your eyes to make them pop a little more. If you have bags under your eyes, consider using a reddish tone to cover up that dark tone underneath the eyes.
-4.Curl Your Lashes
-Whether or not you plan to use mascara, curling your lashes can make them look that much bolder and brighter. Plus, it draws attention to your eyes, which is great if you’ve been able to cover up the tiredness. Curling your lashes before you add mascara can make the mascara create an even bigger and bolder impression on the other person.
-5.Add Blush to Your Cheeks
-It’s common for people to look pretty washed out and pale on a video conference call. One of the best ways to combat the pale, washed-out look is to add just a bit of color to your cheeks. Add a small amount more than you usually would for an in-person date or meeting; the extra blush will help boost your look for the video.
-6.Include Color for Your Lips
-Lips are another thing that tend to look washed out in the video. If you have naturally pale lips or you just don’t tend to do a lot with your lips every day, it might be worth it to add just a bit of color. Even just a pinkish lip gloss can be extremely beneficial for your look, as you’re less likely to look eerily corpselike in the viewfinder.
-7.Focus on Your Hairstyle
-Hairstyles come across incredibly no matter where you are. Opt for a hairstyle that looks great from the front, as you’re probably not going to be doing too much looking around or turning around. If the video chat is for work, utilize a very simple style; if you’re on a date or a similar chat, consider a slightly more elegant look.
-8.Take a Look
-Possibly the most important step of this entire process is to take a look at yourself in the camera you’re using before you dial in. Whether it’s your phone, your laptop or a desktop camera, take a look at yourself and do any last-minute changes before you start things off. From there, you’ll be able to just enjoy yourself.
-Conclusion
-Makeup is a fairly complicated topic and it’s even more complicated when you’re switching to a brand new medium. What if you seem to be a whiz kid at makeup for every occasion? If it’s been totally easy for you to switch to doing makeup for video conferencing, you might want to consider putting that makeup skill to work. With the esthetics program at Tricoci University of Beauty Culture, you’ll learn more about makeup application, which will be the perfect head start to becoming a professional makeup artist for people just like you.
-",
-                        Author = "Tricoci University",
-                        ImageUrl = GlobalConstants.Images.MakeUpTips,
-                    },
-                    new BlogPost // 4
-                    {
-                        Title = "Summer Essentials for Healthy Hair",
-                        Content = @"The warmest days usually peak during August. While everyone is looking for the latest hair trends, most people are in search of a no-fuss approach when it comes to styling hair during toasty end-of-summer days. The dog days of summer wreak havoc on the hair with sun damage, notoriously bad-for-your-hair heating irons, and one too many blowouts. By the end of August, your hair is thirsty for moisturizer, conditioning and a sabbatical from products, processing and heat. Even professionals recommend taking a minimalist path. If you want to restore your hair to softer, au natural locks and still look cute, look no further than our fearless style ambassadors for low-maintenance looks.
+                        Title = "Summer Beauty Tips",
+                        Content = @"Use non-comedogenic products. Non-comedogenic beauty products are designed not to clog pores which can lead to irritation and blemishes. This is important to remember for sunscreens, but may impact you more if you moisturize often and are prone to acne – especially in the summer. Hot and humid weather leads to sweat which takes a longer time to evaporate off your skin. Combining that with oily products isn’t exactly a party for your pores. Go the oil-free or non-comedogenic route to ward off pimples.
 
-1. The Textured Ponytail
-The Textured High Ponytail
+Stay moisturized with good clean/organic products. A faithful moisturizing routine can do so many beneficial things for your complexion. Your skin is a barrier that protects you from environmental factors like pollution, bacteria and moisture loss, and keeping it moisturized helps keep that barrier working properly. Dry skin is unhappy, damage-prone skin, so apply a light moisturizer to protect it from summertime drying agents like sunburn, salt and chlorine.
 
-textured high ponytail
+Exfoliate at the right times – and don’t overdo it! Not only will it help you maintain a fresh fake tan (when your dead skin cells flake off, the old tan will come off with it), but gentle facial exfoliation will help keep your skin free of clogged pores and create a better canvas for makeup application. However, keep in mind that exfoliation reveals new, sensitive skin that can be more prone to burning in the sun. Reserve your exfoliating habits for the evening (and not right before a special occasion), or for days when you aren’t heading straight from the shower to the pool.
 
-The textured ponytail is a staple when your hair already has body and volume from the previous day’s style. If your hair is naturally wavy and textured, this style will be a cinch.
+Aloe can be your new best friend during the summer. It is a known anti-inflammatory that also provides moisturizing relief. Applying products containing aloe vera after sun exposure will calm and soothe your skin, leaving you far less likely to experience that awful scaly dryness that comes with summer. It’s also said to contain antioxidants that can help repair damaged skin and prevent free radicals from doing their undesirable work. Keep an aloe plant in your backyard or even your kitchen and use when needed!
 
-How to style:
+Invest in moisturizers that work on wet skin when best absorbed. Don’t skip the after-bathing rehydration! Many brands now make body washes that provide hydration via their oil ingredients with many that you apply even before you towel off.
 
--Use a pick or comb to loosely pull your hair into a high ponytail
--Draw out strands of hair using a pick
--If your hair is oily, use dry shampoo to soak up the oil
-The Textured Low Ponytail
-
-textured low ponytail
-
-The textured low ponytail is like the sleeker version of the high pointy tail. Plus, you might have a better chance at avoiding breakage. Adding texture to a low ponytail gives it a playful aesthetic, not taking itself too seriously.
-
-How to style:
-
--Tie hair loosely right above the nape
--Using a pick or teasing comb to gently tease the hair to add volume
--Use a holding spray for a long-lasting look
-2. The Topknot
-top knot
-
-Take the classically demure bun and jazz it up with a topknot. This is an ambassador favorite because the topknot can be surprisingly versatile, achieved with a wet look, sleek look, textured hair or dry look, guaranteed to be easy to pull off.
-
-How to style:
-
--Swoop hair up and tie in a knot or style in a teased bun
--Frame face with loose and wavy strands
--Wear with bangs or pulled back to show off a fresh face
-3.The Low Loop
-low loop
-
-The low loop is fairly easy to create, and as it turns out, it can be an elegant solution to an evening out.
-
-How to style:
-
--Use a shine oil mist before and after styling for a lustrous finish
--Tie hair above the nape and loosely wrap the hair around the band while pinning hair with bobby pins
--Make the loop look more interesting with volume
-4.The Box Braids with Top Knot
-box braids with top knot
-
-Box Braids take more time and commitment to create but they’re worth the effort. Although box braids have made a comeback and were popular in the 90s, the history of these beautifully braided tresses dates back to 3500 BC.
-
-How to style:
-
--Wear half up and half down
--Style in a high ponytail
--Let your hair down and enjoy your braids for a few months
-5. Half Up/Half Down
-half up half down
-
-Avoid heat and wear naturally dried and loose for a more youthful and effortless style.
-
-Perfect for showing off a neckline while still letting your hair down
-Wear with curls, waves or iron-flat styled hair
-6. Loose Waves
-loose waves
-
-Sultry loose waves may look effortless, but it takes a bit of time to create. Use a curling iron to create frizz-free waves.
-
-How to style:
-
--Spiral
--Volumized loose curls
--Beachy waves
-7. Braided Ponytail
-braided ponytail
-
-Kim Kardashian popularized the waist-length ponytail braid. It’s sleek, sexy and ideal for those warm summer days.
-
-How to style:
-
--Side-braided ponytail
--Ladder-braided ponytail
--Fishtail-braided ponytail
- 
-
-Contact our A-list team of ambassadors for summer hairstyles, cuts and colors today.
-",
-                        Author = "Tricoci University",
+Buy quality sunscreens. Look beyond the SPF and buy quality sunscreens with safe ingredients. Reapply every hour or so, and if you take a dip in the water, reapply when you get out. Water attracts the sun (like snow), creating a glare that can cause sunburns.",
+                        Author = "Michele McDonough",
                         ImageUrl = GlobalConstants.Images.SummerHair,
                     },
-                };
+                    new BlogPost // Id = 3
+                    {
+                        Title = "How Often Should I Change My Make-Up?",
+                        Content = @"To maintain that healthy facial glow, here are some helpful facts about the shelf life for your cosmetic products.
+
+Mascara should be replaced every three months, as its liquid consistency and exposure to air every time it is opened make it more vulnerable to bacteria. Its proximity to your eye area can lead to possible infections. If you end up with conjunctivitis, commonly called “pink eye” or any other eye infections, it’s best to throw your mascara away immediately! Also, be cautious when sharing your mascara with others; it is not recommended.
+
+Liquid eyeliners present the same concerns as mascaras, so they should be replaced every six months. Pencil eyeliners, however, can last up two years. Sharpen your pencil with each use to keep it fresh and easy to use/apply. Regularly cleaning your sharpener with a discarded toothbrush is a good idea, as well.
+
+Most foundations should last up to one year; however, you should throw away liquid foundations if you notice any change in smell, texture or color. If you’re prone to acne, consider replacing your foundation every six months and be sure to wash hands, sponges and brushes much more often.
+
+Because of the liquid consistency of lip-gloss, it will need to be replaced more often than an actual lipstick; every 12 months is recommended. The longevity of concealers depends upon consistency. Liquid concealer should be tossed after one year; however, powder concealer can last up to two years. Non-liquid lipsticks can last up to two years, as well.
+
+If you notice a change in color in your nail polish or even a bad smell, it’s time to throw your polish away. Typically, it should last you up to two years. Some brands have expiration dates on the back of the bottle. When making a purchase, check for expiration dates before your purchase to make sure it’s not old inventory! If your products do not have expiration dates, use a sharpie to note date of purchase as a freshness guide.
+
+Powder, blush, bronzer or eyeshadow can last for two years, with proper care. And don’t forget to clean your brushes often!
+
+Heat destroys the shelf life of your favorite products, so a trick of the trade for desert dwellers is to find a handy little make-up tote and refrigerate your make-up. The bonus of refrigeration is the refreshing coolness during application!",
+                        Author = "Michele McDonough",
+                        ImageUrl = GlobalConstants.Images.MakeUpTips,
+                    },
+                    new BlogPost // Id = 4
+                    {
+                        Title = "Summer Essentials for Healthy Hair",
+                        Content = @"Sun, hot dry air, chlorine and salty water…we sure do torture our hair throughout the summer months. It’s no wonder we complain about split ends, oily scalps and dull, lifeless locks. However, with the help of a few essentials, you have a good shot at keeping your hair healthy all summer long.
+
+Trim Your Tresses. Summer seems like the most hassle-free time to grow your hair as you find yourself in messy buns and braids as opposed to a coifed up-do or a sleek blow-out. Yet, it is essential to cut the split ends before they become worse. Desert heat dries everything out – including the shaft of our hair. As hair grows, it continues to split up the shaft causing more damage and the inevitable need to lop off even more than you initially wanted. Book yourself an appointment now, and dust your ends.
+
+Cover Your Coconut. Your hair is like any other part of your body…it needs protection from damaging UV rays. Also, it is a misconception that our hair will protect our scalp from sun damage. To protect your scalp and keep your hair shielded from becoming burnt (yep, that’s actually a real thing), use coconut oil. Coconut oil is not only an antioxidant keeping the harmful rays at bay; it also has natural SPF as well. You can lather the oil onto damp hair as a deep conditioner, repairing your hair and protecting your dome, all while lounging in the pool. After all, why not multi-task? Get your pool time in and let the sun’s heat work its magic.
+
+Just Say No to Daily Shampooing.  Unless you are washing the coconut out, washing your hair daily is really not recommended. Although seemingly counterintuitive, frequent washing actually increases oil production leading to an even greasier scalp and dry brittle hair – not a good look at all.
+
+Instead go for a dry shampoo which helps to reduce scalp oil without drying out your luscious locks. For the adventurous souls, try this DIY treatment to control oil secretion:
+
+Mix 2-3 tbsp of coconut water with the juice of a lemon. Apply the mixture to your scalp and massage it for 5 minutes before rinsing it with cold water. For best results, do this as a weekly treatment.
+
+Water Thyself.  Like all living things, we need water to exist. It cannot be overstated how imperative it is to drink copious amounts of water, especially during triple-digit mercury readings. The proper amount of water each person needs is different; however, newer research indicates that eight 8-ounce glasses a day are really not enough for proper hydration. A good rule of thumb is to drink enough water to produce nearly colorless urine. Feel good as you get your sip on, knowing water is our #1 defense against lifeless locks.
+
+Regardless of how you tame your mane, the most important factor in achieving healthy summer hair is spending your days thinking happy thoughts, creating a sense of calm and peace within, and inspiring others to do the same.
+
+Cheers to happy, healthy hair!",
+                        Author = "Elizabeth Scarcella",
+                        ImageUrl = GlobalConstants.Images.Hair,
+                    },
+                 };
 
             foreach (var blogPost in blogPosts)
             {

@@ -31,7 +31,8 @@
                               new CitiesSeeder(),
                               new CategoriesSeeder(),
                               new SalonsSeeder(),
-
+                              new SalonServicesSeeder(),
+                              new ServicesSeeder(),
                           };
 
             foreach (var seeder in seeders)

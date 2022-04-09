@@ -110,7 +110,7 @@
 
             public const int Categories = 4;
 
-            public const int Services = 70;
+            public const int Services = 25;
 
             public const int Cities = 5;
 

@@ -12,6 +12,38 @@
   <ItemGroup>
     <AdditionalFiles Include="..\..\stylecop.json" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\js\bootstrap-datepicker.js" />
+    <None Include="wwwroot\js\date-picker.js" />
+    <None Include="wwwroot\js\rating-responsive.js" />
+    <None Include="wwwroot\js\rating-static.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\site.min.js" />
+    <None Include="wwwroot\js\upload-image.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\plugins\easing\easing.js" />
+    <None Include="wwwroot\plugins\fontawesome-free\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\plugins\fontawesome-free\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\plugins\fontawesome-free\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\plugins\fontawesome-free\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\plugins\fontawesome-free\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\plugins\fontawesome-free\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\plugins\greensock\animation.gsap.min.js" />
+    <None Include="wwwroot\plugins\greensock\ScrollToPlugin.min.js" />
+    <None Include="wwwroot\plugins\greensock\TimelineMax.min.js" />
+    <None Include="wwwroot\plugins\greensock\TweenMax.min.js" />
+    <None Include="wwwroot\plugins\OwlCarousel2-2.2.1\owl.carousel.js" />
+    <None Include="wwwroot\plugins\parallax-js-master\parallax.min.js" />
+    <None Include="wwwroot\plugins\progressbar\progressbar.min.js" />
+    <None Include="wwwroot\plugins\scrollmagic\ScrollMagic.min.js" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.3" />
