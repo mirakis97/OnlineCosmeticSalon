@@ -29,6 +29,8 @@
                               new AccountsSeeder(),
                               new BlogPostsSeeder(),
                               new CitiesSeeder(),
+                              new CategoriesSeeder(),
+                              new SalonsSeeder(),
 
                           };
 
