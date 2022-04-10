@@ -15,7 +15,7 @@ namespace AspNetCoreTemplate.Services.Data.Services
 
         public ServicesService(IRepository<Service> repo)
         {
-            this._repo = _repo;
+            this._repo = repo;
         }
 
         public async Task<IEnumerable<T>> GetAllAsync<T>()

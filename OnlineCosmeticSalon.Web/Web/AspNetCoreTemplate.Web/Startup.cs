@@ -68,7 +68,7 @@
 
             // Application services
             Cloudinary cloudinary = new Cloudinary(new Account(
-                GlobalConstants.CloudName, // this.configuration["Cloudinary:CloudName"],
+                this.configuration["Cloudinary:CloudName"],
                 this.configuration["Cloudinary:ApiKey"],
                 this.configuration["Cloudinary:ApiSecret"]));
             services.AddSingleton(cloudinary);

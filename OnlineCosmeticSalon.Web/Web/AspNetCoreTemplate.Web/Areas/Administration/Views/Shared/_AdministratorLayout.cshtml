@@ -35,7 +35,7 @@
         <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <div class="background_image" style="background-image:url(@GlobalConstants.Images.CoverBackground)"></div>
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">@GlobalConstants.SystemName</a>
+                <a class="navbar-brand" asp-area="Administration" asp-controller="Dashboard" asp-action="Index">@GlobalConstants.SystemName</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,7 +45,7 @@
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="Administration" asp-controller="Dashboard" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="Administration" asp-controller="Services" asp-action="Index">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="Administration" asp-controller="Categories" asp-action="Index">Categories</a>
@@ -57,7 +57,7 @@
                             <a class="nav-link text-dark" asp-area="Administration" asp-controller="BlogPosts" asp-action="Index">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="Administration" asp-controller="Appointments" asp-action="Index"><i class="fa fa-calendar" aria-hidden="true"></i> Appointments</a>
+                            <a class="nav-link text-dark" asp-area="Administration" asp-controller="Appointments" asp-action="Index">Appointments</a>
                         </li>
 
                         <li class="nav-item">

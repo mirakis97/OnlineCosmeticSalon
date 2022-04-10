@@ -33,7 +33,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
+            <div class="super_container">
                 <div class="background_image" style="background-image:url(@GlobalConstants.Images.CoverBackground)"></div>
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">@GlobalConstants.SystemName</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -49,16 +49,6 @@
                         </li>
                     </ul>
                 </div>
-                <div class="bg-light border border-secondary" id="sidebar-wrapper">
-                    <div class="sidebar-heading"><strong><u>Salon Manager</u></strong></div>
-                    <div class="list-group list-group-flush">
-
-                        <div>
-                            @await Component.InvokeAsync("SalonsSimpleList")
-                        </div>
-
-                    </div>
-                </div>
             </div>
         </nav>
     </header>
@@ -69,7 +59,16 @@
             @this.RenderBody()
         </main>
     </div>
+    <div class="bg-light border border-secondary" id="sidebar-wrapper">
+        <div class="sidebar-heading"><strong><u>Salon Manager</u></strong></div>
+        <div class="list-group list-group-flush">
 
+            <div>
+                @await Component.InvokeAsync("SalonsSimpleList")
+            </div>
+
+        </div>
+    </div>
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; @DateTime.Now.Year - @GlobalConstants.SystemName - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
