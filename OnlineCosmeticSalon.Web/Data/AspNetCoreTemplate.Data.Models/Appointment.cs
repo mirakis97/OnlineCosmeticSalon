@@ -1,10 +1,11 @@
-﻿using System;
+﻿using AspNetCoreTemplate.Data.Common.Models;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AspNetCoreTemplate.Data.Models
 {
-    public class Appointment
+    public class Appointment : IDeletableEntity
     {
         [Required]
         [Key]
@@ -32,5 +33,7 @@ namespace AspNetCoreTemplate.Data.Models
 
         public bool? Confirmed { get; set; }
         public bool? IsSalonRatedByTheUser { get; set; }
+        public bool IsDeleted { get ; set; }
+        public DateTime? DeletedOn { get; set; }
     }
 }

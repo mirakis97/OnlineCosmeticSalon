@@ -1,11 +1,13 @@
 ﻿using AspNetCoreTemplate.Common;
+using AspNetCoreTemplate.Data.Common.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AspNetCoreTemplate.Data.Models
 {
-    public class Service
+    public class Service : IDeletableEntity
     {
         public Service()
         {
@@ -31,5 +33,7 @@ namespace AspNetCoreTemplate.Data.Models
         public virtual ICollection<SalonService> Salons { get; set; }
 
         public virtual ICollection<Appointment> Appointments { get; set; }
+        public bool IsDeleted { get; set; }
+        public DateTime? DeletedOn { get; set; }
     }
 }

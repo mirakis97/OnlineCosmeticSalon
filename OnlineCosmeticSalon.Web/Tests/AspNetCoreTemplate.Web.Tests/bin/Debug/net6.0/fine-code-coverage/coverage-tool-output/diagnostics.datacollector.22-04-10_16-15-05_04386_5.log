@@ -1,0 +1,88 @@
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.188, 11236205761874, datacollector.dll, Version: 17.1.0-release-20220113-05
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.200, 11236205834155, datacollector.dll, DataCollectorMain.Run: Starting data collector run with args: --port,56096,--parentprocessid,24952,--diag,C:\Miroslav Apps\Programing\ASP.NET-Core-Template-master\src\Tests\AspNetCoreTemplate.Web.Tests\bin\Debug\net6.0\fine-code-coverage\coverage-tool-output\diagnostics.datacollector.22-04-10_16-15-05_04386_5.log,--tracelevel,4
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.200, 11236205835897, datacollector.dll, DataCollector: Monitoring parent process with id: '24952'
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.225, 11236206084483, datacollector.dll, Trying to connect to server on socket : 127.0.0.1:56096 
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.234, 11236206181261, datacollector.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:05.246, 11236206294209, datacollector.dll, Connected to the server successfully 
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:05.246, 11236206295540, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.329, 11236207131661, datacollector.dll, DataCollector: Start Request Processing.
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.334, 11236207179613, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.BeforeTestRunStart) -> {
+  "SettingsXml": "<RunSettings><RunConfiguration><ResultsDirectory>C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Tests\\AspNetCoreTemplate.Web.Tests\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory><TargetPlatform>X64</TargetPlatform><TargetFrameworkVersion>.NETCoreApp,Version=v6.0</TargetFrameworkVersion><DesignMode>False</DesignMode><CollectSourceInformation>False</CollectSourceInformation><TestAdaptersPaths>C:\\Program Files\\dotnet\\sdk\\6.0.201\\Extensions</TestAdaptersPaths></RunConfiguration><LoggerRunSettings><Loggers><Logger friendlyName=\"blame\" enabled=\"True\" /><Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\6.0.201\\vstest.console.dll\" enabled=\"True\" /></Loggers></LoggerRunSettings><DataCollectionRunSettings><DataCollectors><DataCollector friendlyName=\"blame\" enabled=\"True\"><Configuration><ResultsDirectory>C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Tests\\AspNetCoreTemplate.Web.Tests\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory></Configuration></DataCollector></DataCollectors></DataCollectionRunSettings></RunSettings>",
+  "Sources": [
+    "C:\\Miroslav Apps\\Programing\\ASP.NET-Core-Template-master\\src\\Tests\\AspNetCoreTemplate.Web.Tests\\bin\\Debug\\net6.0\\fine-code-coverage\\build-output\\AspNetCoreTemplate.Web.Tests.dll"
+  ],
+  "IsTelemetryOptedIn": false
+}
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.385, 11236207691628, datacollector.dll, TestPluginCache: Update extensions started. Skip filter = False
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.386, 11236207701523, datacollector.dll, TestPluginCache: Using directories for assembly resolution 'C:\Program Files\dotnet\sdk\6.0.201\Extensions'.
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.387, 11236207702639, datacollector.dll, TestPluginCache: Updated the available extensions to 'C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.398, 11236207819305, datacollector.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: Collector.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectorConfig TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollector
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.399, 11236207823018, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.399, 11236207823628, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.399, 11236207823996, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.400, 11236207832609, datacollector.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Program Files\dotnet\sdk\6.0.201\Extensions,C:\Program Files\dotnet\sdk\6.0.201
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.401, 11236207849247, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.402, 11236207852112, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.402, 11236207852640, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.402, 11236207852966, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.402, 11236207853575, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.402, 11236207855294, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\6.0.201\Extensions,C:\Program Files\dotnet\sdk\6.0.201
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.402, 11236207855946, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\6.0.201\Extensions,C:\Program Files\dotnet\sdk\6.0.201
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.402, 11236207861070, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.402, 11236207861977, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Searching in: 'C:\Program Files\dotnet\sdk\6.0.201\Extensions'.
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.403, 11236207868539, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Loading assembly 'C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll'.
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.404, 11236207876106, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Error: 0 : 28712, 1, 2022/04/10, 16:15:05.410, 11236207940416, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.412, 11236207956446, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.412, 11236207957712, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Searching in: 'C:\Program Files\dotnet\sdk\6.0.201\Extensions'.
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.412, 11236207961537, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Loading assembly 'C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.413, 11236207966518, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.EventLogCollector, from path: C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Error: 0 : 28712, 1, 2022/04/10, 16:15:05.415, 11236207988523, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.EventLogCollector.EventLogDataCollector" defined in "Microsoft.TestPlatform.Extensions.EventLogCollector.dll" does not have ExtensionUri attribute.
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.416, 11236207993379, datacollector.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\6.0.201\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.416, 11236207994501, datacollector.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.416, 11236207994853, datacollector.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.416, 11236207995153, datacollector.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.416, 11236207995443, datacollector.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:05.416, 11236207995753, datacollector.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.417, 11236208011254, datacollector.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Error: 0 : 28712, 1, 2022/04/10, 16:15:05.418, 11236208014705, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.424, 11236208080627, datacollector.dll, Listening on Endpoint : 127.0.0.1:56099
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.436, 11236208194029, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection started.
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:05.490, 11236208738553, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.TestHostLaunched) -> {
+  "ProcessId": 12088
+}
+TpTrace Information: 0 : 28712, 5, 2022/04/10, 16:15:05.735, 11236211186908, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 28712, 5, 2022/04/10, 16:15:05.735, 11236211188281, datacollector.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.549, 11236249331881, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.567, 11236249510328, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.568, 11236249518245, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'AspNetCoreTemplate.Web.Tests.WebTests.AccountManagePageRequiresAuthorization - f5093fc6-3971-149d-e818-4bded318e643' started.
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.580, 11236249638656, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.596, 11236249797017, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.602, 11236249859312, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'AspNetCoreTemplate.Web.Tests.WebTests.AccountManagePageRequiresAuthorization - f5093fc6-3971-149d-e818-4bded318e643' completed
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.622, 11236250057618, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.623, 11236250062496, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.623, 11236250065027, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'AspNetCoreTemplate.Web.Tests.WebTests.IndexPageShouldReturnStatusCode200WithTitle - d79821ef-2540-3a34-9bc4-21015a8ec660' started.
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.626, 11236250096894, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.627, 11236250102870, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.627, 11236250107064, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'AspNetCoreTemplate.Web.Tests.WebTests.IndexPageShouldReturnStatusCode200WithTitle - d79821ef-2540-3a34-9bc4-21015a8ec660' completed
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.629, 11236250123040, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.629, 11236250128677, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.629, 11236250132100, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'AspNetCoreTemplate.Web.Tests.SeleniumTests.FooterOfThePageContainsPrivacyLink - 9ed0d4b0-a75e-518d-8a89-9d261f5ef9f1' started.
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.631, 11236250150363, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.632, 11236250155495, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.632, 11236250158432, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'AspNetCoreTemplate.Web.Tests.SeleniumTests.FooterOfThePageContainsPrivacyLink - 9ed0d4b0-a75e-518d-8a89-9d261f5ef9f1' completed
+TpTrace Information: 0 : 28712, 8, 2022/04/10, 16:15:09.645, 11236250291732, datacollector.dll, DataCollectionTestCaseEventHandler: Test session ended
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:09.795, 11236251783664, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.AfterTestRunEnd) -> false
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:09.796, 11236251794530, datacollector.dll, Blame Collector : Session End
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:09.796, 11236251795800, datacollector.dll, BlameCollector.CollectDumpAndAbortTesthost: Custom path to dump directory was provided via VSTEST_DUMP_PATH. Skipping attachment upload, the caller is responsible for collecting and uploading the dumps themselves.
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:09.796, 11236251797428, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins called
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:09.796, 11236251798848, datacollector.dll, DataCollectionManager.CleanupPlugins: Cleaning up 1 plugins
+TpTrace Verbose: 0 : 28712, 1, 2022/04/10, 16:15:09.796, 11236251800636, datacollector.dll, dataCollectorInfo.DisposeDataCollector: calling Dispose() on Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:09.796, 11236251801818, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins finished
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:09.802, 11236251859129, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:09.803, 11236251862877, datacollector.dll, Closing the connection !
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:09.803, 11236251863845, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection completed
+TpTrace Information: 0 : 28712, 1, 2022/04/10, 16:15:09.803, 11236251864818, datacollector.dll, Program.Main: exiting datacollector process.

@@ -1,10 +1,11 @@
 ﻿using AspNetCoreTemplate.Common;
+using AspNetCoreTemplate.Data.Common.Models;
 using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace AspNetCoreTemplate.Data.Models
 {
-    public class BlogPost
+    public class BlogPost : IDeletableEntity
     {
         [Key]
         [Required]

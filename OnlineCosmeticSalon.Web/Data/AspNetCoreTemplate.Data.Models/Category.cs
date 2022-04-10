@@ -1,10 +1,12 @@
 ﻿using AspNetCoreTemplate.Common;
+using AspNetCoreTemplate.Data.Common.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace AspNetCoreTemplate.Data.Models
 {
-    public class Category
+    public class Category : IDeletableEntity
     {
         public Category()
         {
@@ -28,5 +30,7 @@ namespace AspNetCoreTemplate.Data.Models
         public virtual ICollection<Service> Services { get; set; }
 
         public virtual ICollection<Salon> Salons { get; set; }
+        public bool IsDeleted { get; set; }
+        public DateTime? DeletedOn { get; set ; }
     }
 }
