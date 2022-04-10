@@ -1,4 +1,4 @@
-﻿namespace BeautyBooking.Data.Configurations
+﻿namespace AspNetCoreTemplate.Data.Configurations
 {
     using AspNetCoreTemplate.Data.Models;
     using Microsoft.EntityFrameworkCore;
